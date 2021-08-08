@@ -73,7 +73,7 @@ header a {
     height: 100px;
 }
 
-
+/*Formats main section to look the same for whole page*/
 .mainformat {
     margin: 20px;
     padding: 50px;
@@ -85,12 +85,14 @@ header a {
     
 }
 
+/*Gives h2 headers the same look across page*/
 h2 {
     color: var(--third-color);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: left;
 }
 
+/*Formats the flex container for the big and small boxes later*/
 .boxCont {
     display: flex;
     flex-wrap: wrap;
@@ -101,7 +103,7 @@ h2 {
     color: var(--third-color);
 }
 
-
+/*Formats bigger box to be centered over smaller ones*/
 .boxBig {
     display: flex;
     flex-direction: row;
@@ -113,6 +115,7 @@ h2 {
     background-position: center;
 }
 
+/*Formats smaller boxes to be spaced correctly and formatted*/
 .boxSmall {
     display: flex;
     flex-direction: row;
@@ -136,15 +139,14 @@ h2 {
     text-decoration: none;
 }
 
-.boxBig:hover {
-    box-shadow: inset 0px 0px 8px var(--heliotrope);
-}
-
+/*Formats links to look cleaner*/
 .links {
     text-decoration: none;
     color: var(--first-color);
+    padding: 5%;
 }
 
+/*Formats footer*/
 footer {
     margin: 5%;
     padding: 5%;
@@ -152,17 +154,18 @@ footer {
     text-align: center;
 }
 
-/*Tablets - card changes width */
+/*Used to create responsive layout, % used above in place of px work for now*/
+/*Tablets -  */
 @media screen and (max-width: 992px) {
     
   }
   
-/*Large smartphones - card changes width */
+/*Large smartphones -  */
   @media screen and (min-width: 768px) {
     
   }
   
- /*Small smartphones - card changes width*/
+ /*Small smartphones - */
   @media screen and (min-width: 576px) {
     
   } 
