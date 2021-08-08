@@ -11,3 +11,6 @@ This portfolio website includes an about me section to enable viewers to get to 
 The projects section is the main section, giving viewers a way to view project samples. As more projects are created, they will be added to the site and will link to the deployed application.
 
 ## Link
+
+  https://camjade.github.io/Professional-Portfolio/Work/index.html
+  
