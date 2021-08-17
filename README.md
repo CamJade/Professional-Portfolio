@@ -14,4 +14,10 @@ The projects section is the main section, giving viewers a way to view project s
 https://camjade.github.io/Professional-Portfolio/Work/index.html
 
 
+## Screenshots
+![About Me Section](/Assets/ContactMeScreenShot.png)
+![Projects Section](/Assets/ProjectScreenShot.png)
+![Contact Me Section](/Assets/ContactMeScreenShot.png)
+  
+
   
