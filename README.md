@@ -15,7 +15,7 @@ https://camjade.github.io/Professional-Portfolio/Work/index.html
 
 
 ## Screenshots
-![About Me Section](/Assets/ContactMeScreenShot.png)
+![About Me Section](/Assets/AboutMeScreenShot.png)
 ![Projects Section](/Assets/ProjectScreenShot.png)
 ![Contact Me Section](/Assets/ContactMeScreenShot.png)
   
