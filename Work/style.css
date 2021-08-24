@@ -50,7 +50,7 @@ header a {
 /*Formats banner */
 .banner-image {
     height: 145px;
-    width: 120%;
+    width: 100%;
     background-image: url("Golden_and_rosed_marble_texture.jpg");
     background-size: 100%;
     background-position: center;
@@ -73,13 +73,15 @@ header a {
 
 /*Formats main section to look the same for whole page*/
 .mainformat {
-    margin: 20px;
-    padding: 50px;
+    margin: 5%;
+    padding: 5%;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: var(--fourth-color) ;
     color: var(--third-color);
-   
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
     
 }
 
@@ -111,6 +113,7 @@ h2 {
     background-image: url("588-600x400.jpg");
     background-size: 120%;
     background-position: center;
+    display: inline-block;
 }
 
 /*Formats smaller boxes to be spaced correctly and formatted*/
@@ -141,7 +144,8 @@ h2 {
 .links {
     text-decoration: none;
     color: var(--first-color);
-    padding: 0%;
+    
+    
 }
 
 /*Formats footer*/
@@ -168,3 +172,15 @@ footer {
   } 
 }
   
+/*@media screen and (max-width: 632px) {
+    header nav ul li {
+        display: flex;
+        padding-right: 7px;
+        justify-content: space-between;
+        display:unset;
+    }
+    header a {
+        padding-top: 0%;
+        padding-right: 0%;
+    }
+}
