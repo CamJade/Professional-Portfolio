@@ -97,8 +97,8 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin: 20px;
-    padding: 50px;
+    margin: 5%;
+    padding: 5%;
     background-color: var(--fourth-color) ;
     color: var(--third-color);
 }
