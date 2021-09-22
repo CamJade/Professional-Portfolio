@@ -5,7 +5,7 @@
 This is a portfolio for Cameron White displaying about me, projects, and contact sections. As more projects are completed, they will be added to project section. 
 
 ## Link
-https://camjade.github.io/Professional-Portfolio/Work/index.html
+https://camjade.github.io/Professional-Portfolio/
 
 ## Usage
 
@@ -23,7 +23,12 @@ HTML, CSS, JavaScript
 ![About Me Section](/Assets/AboutMeScreenShot.png)
 ![Projects Section](/Assets/ProjectScreenShot.png)
 ![Contact Me Section](/Assets/ContactMeScreenShot.png)
-  
+
+## License
+  LICENSE
+
 ## How to contact author
 Email at whitcam20@gmail.com
-  
+
+## Credits
+Initial design ideas from https://scrimba.com/learn/portfolio
