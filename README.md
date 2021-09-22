@@ -25,10 +25,10 @@ HTML, CSS, JavaScript
 ![Contact Me Section](/Assets/ContactMeScreenShot.png)
 
 ## License
-  LICENSE
+licensed under [MIT license](LICENSE).
 
 ## How to contact author
 Email at whitcam20@gmail.com
 
 ## Credits
-Initial design ideas from https://scrimba.com/learn/portfolio
+Initial design ideas from https://www.youtube.com/watch?v=_xkSvufmjEs
