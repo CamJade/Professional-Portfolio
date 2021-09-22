@@ -48,7 +48,7 @@ nav {
     transform: translateX(100%);
     transform: transform 250ms cubic-benzier(.5,0,.5,1);
 }
-
+/*nav button*/
 .nav-toggle {
     padding: 1%;
     background: transparent;
@@ -205,7 +205,7 @@ h3 {
     flex-direction: row;
     margin: 0%;
     padding: 5%;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 /*Formats bigger box to be centered over smaller ones*/
@@ -236,12 +236,30 @@ h3 {
     background-color: var(--pink-color);
     margin-left: 0;
     margin-top: 40%;
-    margin-bottom: 20%;
+    margin-bottom: 25%;
     padding: 2%;
     color: var(--white-color);
     text-decoration: none;
     position: absolute;
 }
+
+/*
+.portfolio {
+    position: relative;
+}
+
+.projectLinks {
+    opacity: 50%;
+    position: absolute;
+    display: block;
+    background-color: var(--rose-color);
+    z-index: 2;
+}
+
+.projectLinks:hover {
+    opacity: 100%;
+}
+
 /*contact me section*/
 .contactTitle {
     color: var(--gold-color);
@@ -268,6 +286,11 @@ h3 {
     background-color: var(--green-color);
 }
 
+footer {
+    background-color:var(--white-color);
+    text-align: center;
+
+}
 @media (min-width: 600px) {
     .intro {
         display: grid;
@@ -307,9 +330,4 @@ h3 {
         --fs-body: 1.125rem;
     }
     
-}
-footer {
-    background-color:var(--white-color);
-    text-align: center;
-
 }
