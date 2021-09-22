@@ -1,11 +1,4 @@
-/*Sets specific values so they can be reused easily later*/
-:root {
-    --first-color: rgb(184, 164, 109);
-    --second-color: rgb(255, 255, 255);
-    --third-color: rgb(216, 123, 169);
-    --fourth-color: rgba(207, 194, 159, 0.493);
-}
-
+/*
 /*Gives whole document the same background */
 html {
     background-color: var(--fourth-color);
@@ -144,7 +137,11 @@ h2 {
 .links {
     text-decoration: none;
     color: var(--first-color);
-    
+}
+
+.email {
+    background-color:var(--second-color);
+    padding: 20%;
     
 }
 

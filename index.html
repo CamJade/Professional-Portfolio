@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Portfolio</title>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <!--<link rel="stylesheet" href="css/reset.css" />-->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header>
+        <p class="logo">CamJade</p>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <i class="fas fa-bars hamburger"></i>
+        </button>
+        <nav>
+            <ul class="navList">
+                <li class="navItem">
+                    <a class="navLink" href="#About-Me">About Me</a>
+                </li>
+
+                <li class="navItem">
+                    <a class="navLink"href="#projects">Projects</a>
+                </li>
+
+                <li class="navItem">
+                    <a class="navLink" href="#Contact-Me">Contact Me</a>
+                </li>
+
+                <li class="navItem">
+                    <a class="navLink" href="file:///C:/Users/User/Downloads/Resume-Cameron%20White.pdf">Resume</a>
+                </li>
+            </ul>
+        </nav>    
+    </header>
+
+    <!--Intro-->
+    <section class="intro" id="home">
+        <h1 class="h1Intro sectionTitle">
+            Hi, I'm <strong>Cameron White</strong>
+        </h1>
+        <p class="pIntro sectionSubtitle">WEB DEVELOPER</p>
+        <img src="images/profilePic.jpg" alt="profile picture of Cameron smiling" class="profile"/>
+    </section>
+
+    <!--About me-->
+    <section class="aboutMe" id="About-Me">
+        <h2 class="sectionTitle">About me</h2>
+        <p class="sectionPara">My goal is to become a full stack web developer with a focus in UI
+            and visual design. I currently work at a local small business in Bellefontaine, OH while taking an
+            online full-stack coding bootcamp course through The Ohio State University.
+        </p>
+        <br>
+        <p class="sectionPara">After graduating high school, I started college with a major in pharmacy.
+            I took many pharmacy courses and went on a study abroad trip to London to observe practices in
+            other parts of the world. This trip was cut short due to covid, which also meant all my courses 
+            were now suddenly online. This is when I discovered coding!
+        </p>
+        <br>
+        <p class="sectionPara">Outside of class and work I enjoy reading, drinking tea, and going on walks
+             with my dog.</p>
+    </section>
+    <br>
+
+    <!--Project section-->
+    <section class="myProjects boxCont" id="projects">
+        <h2 class="sectionTitle">Projects</h2>
+        <p class="sectionPara"></p>
+        <div class="portfolio" id="boxCont">
+            <a href="https://baker-ling.github.io/osu_bcs_project1/index.html" class="portfolioProject boxBig">
+                <img src="images/Project1.png" alt="" class="portfolio">
+                <div class="label">
+                    <h3>Bilingual Note Taker</h3>
+                    <p>HTML, JavaScript, Materialize CSS, pantry API and LibreTranslate API</p>
+                </div>
+            </a>
+            <a href="https://camjade.github.io/Day-Planner/Develop/index.html" class="portfolioProject boxSmall">
+                <img src="images/dayPlanner.png" alt="" class="portfolio">
+                <div class="label">
+                    <h3>Day Planner</h3>
+                    <p>HTML, CSS, JavaScript, jQuery</p>
+                </div>
+            </a>
+            <a href="https://camjade.github.io/Weather-Dashboard/Main/index.html" class="portfolioProject boxSmall">
+                <img src="images/weatherDashboard.png" alt="" class="portfolio">
+                <div class="label">
+                    <h3>Weather Dashboard</h3>
+                    <p>HTML, CSS, JavaScript, OpenWeather One Call API</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!--Contact section-->
+    <section class="contactMe" id="Contact-Me">
+        <h2 class="sectionTitle contactTitle">Connect with me</h2>
+        <p class="sectionPara connectSection">Contact me via email or LinkedIn or checkout my github and resume!</p>
+        <div class="contactSection">
+            <a class="links email" href="mailto:whitcam20@yahoo.com">
+                <i class="fas fa-envelope-square"></i>
+            </a>
+            <a class="links git" href="http://www.github.com/CamJade">
+                <i class="fab fa-github"></i>
+            </a>
+            <a class="links linkedin" href="https://www.linkedin.com/in/cameron-white-819438212/">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a class="links resume" href="file:///C:/Users/User/Downloads/Resume-Cameron%20White.pdf">
+                <i class="fas fa-file"></i>
+            </a>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer>
+        <h3>Thanks for visiting!</h3>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+
+</body>
+</html>

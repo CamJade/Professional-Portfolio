@@ -1,0 +1,315 @@
+/*Sets specific values so they can be reused easily later*/
+:root {
+    /*color theme*/
+    --gold-color: rgb(184, 164, 109);
+    --white-color: rgb(255, 255, 255);
+    --pink-color: rgb(216, 123, 169);
+    --green-color: rgba(8, 59, 36, 0.671);
+    --rose-color: rgb(211, 176, 176);
+    /*font sizes*/
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-middle: 1.85rem;
+    --fs-body: 1rem;
+    /*font weights*/
+    --fw-reg: 300;
+    --fw-bold: 700;
+    /*box shadow used on image*/
+    --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25);
+}
+
+/*Nav styling*/
+.logo {
+    font-size: var(--fs-middle);
+    margin: 2%;
+    padding-left: 1%;
+    font-weight: var(--fw-bold);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1 em;
+    background-image: url("Golden_and_rosed_marble_texture.jpg");
+    height: 100px;
+}
+
+nav {
+    position: fixed;
+    color: var(--pink-color);
+    background: var(--gold-color);
+    top:0;
+    bottom: 0;
+    left:0;
+    right:0;
+    z-index: 100;
+
+    transform: translateX(100%);
+    transform: transform 250ms cubic-benzier(.5,0,.5,1);
+}
+
+.nav-toggle {
+    padding: 1%;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 1%;
+    top: 1%;
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 2%;
+    padding: 2%;
+}
+
+.navLink {
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-h3);
+    text-decoration: none;
+    color: var(--white-color);
+    
+}
+
+.navLink:hover {
+    color: var(--rose-color); 
+}
+
+.nav-open nav{
+    transform: translateX(75%);
+}
+
+.nav-open .nav-toggle {
+    position: fixed;
+}
+
+.hamburger {
+    font-size: var(--fs-h2);
+    padding: 2px;
+    color: var(--green-color);
+    margin:0;
+}
+body {
+    background: var(--white-color);
+    color: var(--green-color);
+    margin:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: var(--fs-body);
+    line-height: 1.4;
+}
+
+section {
+    padding: 1%;
+}
+
+img {
+    display: block;
+    max-width:100%;
+}
+
+
+h1, h2, h3 {
+    line-height: 1;
+    margin: 0;
+}
+
+h1 {
+    font-size: var(--fs-h1);
+}
+h2 {
+    font-size: var(--fs-h2);
+}
+h3 {
+    font-size: var(--fs-h3);
+}
+
+/**/
+.h1Intro {
+    font-weight: var(--fw-reg);
+    opacity: 70%;
+}
+
+.h1Intro strong {
+    font-weight: var(--fw-bold);
+    display: block;
+    opacity: 100%;
+}
+
+
+.sectionTitle {
+    margin-bottom: .2em;
+}
+
+.sectionPara {
+    margin: 0;
+    font-size: var(--fs-h3);
+}
+
+.sectionSubtitle {
+    margin: 0;
+    font-size: var(--fs-h3);
+}
+
+.pIntro,
+.connectSection {
+    background: var(--gold-color);
+    margin-bottom: 1em;
+    padding: .25em;
+    font-size: var(--fs-h3);
+
+}
+
+
+
+/* Intro */
+.intro {
+    position: relative;
+    align-items: center;
+    margin: 1%;
+}
+.pIntro {
+    width: 290px;
+}
+
+.profile {
+    box-shadow: var(--bs)
+}
+
+/*About me section*/
+.aboutMe {
+    padding: 5%;
+    background-color: var(--green-color);
+    color: var(--white-color);
+}
+
+/*projects*/
+.myProjects {
+    padding: 5%;
+    background-color: var(--white-color);
+    background-size: 100%;
+    margin: 0%;
+}
+
+ 
+/*Formats the flex container for the big and small boxes later*/
+.boxCont {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0%;
+    padding: 5%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
+}
+
+/*Formats bigger box to be centered over smaller ones*/
+.boxBig {
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 95%;
+    margin: 2.5%;
+    position: relative;
+    border: 5px double var(--green-color);
+    box-shadow: var(--bs);
+    
+}
+
+/*Formats smaller boxes to be spaced correctly and formatted*/
+.boxSmall {
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 40%;
+    margin: 2%;
+    position: relative;
+    border: 5px double var(--green-color);
+}
+
+/*Creates and designs label tag on projects*/
+.label {
+    display: block;
+    background-color: var(--pink-color);
+    margin-left: 0;
+    margin-top: 40%;
+    margin-bottom: 20%;
+    padding: 2%;
+    color: var(--white-color);
+    text-decoration: none;
+    position: absolute;
+}
+/*contact me section*/
+.contactTitle {
+    color: var(--gold-color);
+   
+}
+.connectSection {
+    background-color: transparent;
+    line-height: 12px;
+}
+
+.contactSection .links {
+    font-size:var(--fs-h3);
+    color:var(--rose-color);
+    text-decoration: none;
+    justify-content: space-evenly;
+    margin-left: 8%;
+}
+.links:hover {
+    cursor: pointer;
+    color: var(--gold-color);
+}
+
+.contactMe {
+    background-color: var(--green-color);
+}
+
+@media (min-width: 600px) {
+    .intro {
+        display: grid;
+        width: min-content;
+        grid-column-gap: 1em;
+        grid-template-areas: "img title" "img subtitle";
+        grid-template-columns: min-content max-content;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .profile {
+        grid-area: img;
+        min-width: 250px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .pIntro {
+        align-self: start;
+        grid-column: -1/1;
+        grid-row: 2;
+        text-align: right;
+        position: relative;
+        left: -1.5em;
+        width: calc(100% + 1.5em);
+
+
+    }
+}
+
+/*mobile friendly, using variables from above*/
+@media (min-width: 800px) {
+    :root {
+        --fs-h1: 4.5rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.125rem;
+    }
+    
+}
+footer {
+    background-color:var(--white-color);
+    text-align: center;
+
+}
